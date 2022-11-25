@@ -27,7 +27,7 @@ const Home = () => {
             <div className="col-sm-12 col-md-4">
             <h2 className="fw-bold text-uppercase text-secondary">espacio multimedia</h2>
             <p className="fw-semibold fs-5">Streaming, videos, audios y mas</p>
-            <p className="lh-sm">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+            
             </div>
         </div>
         </section>
