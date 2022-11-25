@@ -1,0 +1,70 @@
+@import "/src/sass/custom.scss";
+
+
+@mixin smartphone {
+    @media (min-width: 320px) and (max-width:766){
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (min-width: 480px) and (max-width:767px){
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: 1024px){
+        @content;
+    }
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+ul li{
+    list-style: none;
+    text-decoration: none;
+}
+
+.grid-item-list{
+    @include smartphone{
+        flex-wrap: wrap;
+        background-color: red;
+    }
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    background-color: aqua;
+}
+
+.main__content{
+    min-height: 1280px;
+    height: auto;
+}
+
+.img-main{
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.search-vh{
+    min-height: 1024px;
+}
+
+.docs__result{
+    width: 100%;
+    min-height: 180px;
+}
+
+/* .hero{
+    background-image: `url('/img/egresados.jpg')`;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+} */

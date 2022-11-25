@@ -1,24 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import './sass/custom.scss';
+import './sass/layout.scss';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Header from './components/Header';
+import Home from './Pages/Home';
+import AcercaDe from './Pages/AcercaDe';
+import Footer from './components/Footer';
+import Buscador from './Pages/Buscador';
+import Publicaciones from './Pages/Publicaciones';
+
+
+
+
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+        <Header/>
+     
+          <Routes>
+            <Route path='/' element={<Home/>} />
+            <Route path='/buscador' element={<Buscador/>}/>
+            <Route path='/publicaciones' element={<Publicaciones/>}/>
+            {/* <Route path='publicaciones/:categoria' element={<ListContainer/>}/> */}
+            <Route path='/acercade' element={<AcercaDe/>} />  
+            
+          </Routes>
+      <Footer/>
+    </BrowserRouter>
+  
+    
   );
 }
 
