@@ -14,9 +14,18 @@ const Searcher = () => {
 
     //funcion de busqueda
     const Buscar = (e) => {
+        e.preventDefault()
         setSearch(e.target.value)
         console.log(e.target.value)
     }
+
+    // capturar tecla enter
+    const handleKeyPress = (e) => {
+        if (e.key === 'Enter') {
+          e.preventDefault(); // Evitar el comportamiento predeterminado del formulario
+          Buscar(e)
+        }
+      };
 
     //metodo filtrado
 
@@ -52,6 +61,7 @@ const Searcher = () => {
                     aria-label="Search"
                     value={search}
                     onChange={Buscar}
+                    onKeyPress={handleKeyPress}
                     
                   />
                 </Form> 

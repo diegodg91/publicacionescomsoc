@@ -7,7 +7,7 @@ const ItemList = ({listDocuments}) => {
 
     return(
         <Container>
-         <Row className='mt-5 mb-5'>
+         <Row className='mt-5 g-3 mb-5'>
                 {listDocuments.map((document) => <Item key={document.id} document={document} />)}
 
          </Row>

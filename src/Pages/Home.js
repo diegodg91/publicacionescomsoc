@@ -2,6 +2,7 @@
 import { Link } from "react-router-dom";
 import Publis from "../components/Publis";
 
+
 const Home = () => {
 
     return(
@@ -9,15 +10,17 @@ const Home = () => {
         <div className="row">
             <div className="col-sm-12 col-md-6 my-auto justify-content-center">
                 <h1 className="fw-bold text-secondary text-uppercase mt-5">Bienvenido!</h1>
-                <p className="text-dark lh-sm">Publicaciones COMSOC es un sitio donde vas a encontrar trabajos finales, realizados por alumnos egresados de la UNNE</p>
-                <Link className="text-dark fw-semibold" to='/buscador' style={{textDecoration: "none"}}>Conoce más</Link>
+                <p className="text-dark fs-5 lh-md mt-3 mb-5">Publicaciones COMSOC es un sitio donde vas a encontrar trabajos finales, realizados por alumnos/as egresados/as de la UNNE</p>
+                <Link className="text-secondary fs-5" to='/buscador' style={{textDecoration: "none"}}><i class="bi bi-search"></i> Buscar publicaciones</Link>
             </div>
 
             <div className="col-sm-12 col-md-6 mt-5">
-                <img src="/img/egresados.jpg" alt="egresados PSC" className="img-main"/>
+                <img src="/img/principal.jpg" alt="egresados PSC" className="img-main"/>
             </div>
         </div>
         <Publis/>
+
+
 
         <div className="row">
             <div className="col-sm-12 col-md-8">

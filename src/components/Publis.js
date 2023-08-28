@@ -12,7 +12,7 @@ const Publis = () => {
     <Container>
     <div className='pb-5 '>
     <h2 className='mt-5 mb-2 text-secondary fw-bold'>Categorias</h2>
-    <p className='lh-sm mb-2'>Estos son los diferentes temas que tratan los egresados</p>
+    <p className='lh-sm mb-2'>Estos son los diferentes temas que tratan los egresados/as</p>
     <Link className='text-dark fw-semibold' to='/publicaciones'style={{textDecoration: "none"}}>Ver publicaciones</Link>
     </div>
     
