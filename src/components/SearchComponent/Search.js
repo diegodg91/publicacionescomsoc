@@ -19,14 +19,6 @@ const Searcher = () => {
         console.log(e.target.value)
     }
 
-    // capturar tecla enter
-    const handleKeyPress = (e) => {
-        if (e.key === 'Enter') {
-          e.preventDefault(); // Evitar el comportamiento predeterminado del formulario
-          Buscar(e)
-        }
-      };
-
     //metodo filtrado
 
     let result = []
@@ -48,7 +40,15 @@ const Searcher = () => {
     }, )
     console.log(docs);
 
-   
+   //capturar evento del input (manejador de teclas)
+
+   const handleKeyDown = (e) => {
+    if (e.key === 'Enter' || e.key === 'Tab') {
+      e.preventDefault();
+      e.target.blur();
+    }
+  };
+
 
     return(
         <div className="container search-vh">
@@ -61,7 +61,7 @@ const Searcher = () => {
                     aria-label="Search"
                     value={search}
                     onChange={Buscar}
-                    onKeyPress={handleKeyPress}
+                    onKeyDown={handleKeyDown}
                     
                   />
                 </Form> 

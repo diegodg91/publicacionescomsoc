@@ -41,6 +41,7 @@ const Header = () => {
                 <Nav className="justify-content-end flex-grow-1 gap-3">
                     <Link className='fw-normal text-uppercase text-light text-decoration-none' to='/buscador' onClick={handleLinkClick}>Buscador</Link>
                     <Link className='fw-normal text-uppercase text-light text-decoration-none' to='/publicaciones' onClick={handleLinkClick}>Publicaciones</Link>
+                    <Link className='fw-normal text-uppercase text-light text-decoration-none' to='/multimedia' onClick={handleLinkClick}>Multimedia</Link>
                     <Link className='fw-normal text-uppercase text-light text-decoration-none' to='/acercade' onClick={handleLinkClick}>Acerca de</Link>
                 </Nav>
                 </Navbar.Collapse>
