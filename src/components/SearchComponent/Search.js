@@ -74,9 +74,9 @@ const Searcher = () => {
                                     <div className='card docs__result' key={doc.id}>
                                         <div className='card-body'>
                                             <h5 className='card-title'>{doc.titulo}</h5>
-                                            {/* <p className="card-text pb-4">
-                                            {doc.descripcion.slice(50, 200)}...
-                                        </p> */}
+                                             <p className="parrafo-doc pb-2">
+                                            {doc.descripcion}
+                                        </p>
                                         <a target="blank" href={doc.url} className="decoration-none border-rounded rounded-2 fw-bold text-secondary">Ver PDF</a>
                                         </div>
                                        

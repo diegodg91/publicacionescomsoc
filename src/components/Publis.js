@@ -10,10 +10,10 @@ const Publis = () => {
         <div className="mb-5">
 
     <Container>
-    <div className='pb-5 '>
+    <div className='pb-5'>
     <h2 className='mt-5 mb-2 text-secondary fw-bold'>Categorias</h2>
-    <p className='lh-sm mb-2'>Estos son los diferentes temas que tratan los egresados/as</p>
-    <Link className='text-dark fw-semibold' to='/publicaciones'style={{textDecoration: "none"}}>Ver publicaciones</Link>
+    <p className='lh-sm mb-5'>Estos son los diferentes temas que tratan los egresados/as</p>
+    <Link className='text-light border rounded-3 fw-semibold bg-primary p-3' to='/publicaciones'style={{textDecoration: "none"}}>Ver publicaciones <i class="bi bi-arrow-right"></i></Link>
     </div>
     
     <Row>
@@ -21,19 +21,19 @@ const Publis = () => {
         <Col sm={12} md={true} lg={4}>
             <article className='d-flex flex-row justify-content-center align-items-center w-auto border border-light rounded'>
                     <img src='/img/caratulas/ic.jpg' alt='investigaciones cientificas' className='w-50 d-inline-block'/>
-                    <span className='ps-3 fs-5 fw-semibold'>Investigaciones cientificas</span> 
+                    <span className='ps-2 fw-semibold'>Investigaciones cientificas</span> 
             </article>
         </Col>
         <Col sm={12} md={true} lg={4}>
                 <article className='d-flex flex-row justify-content-center align-items-center w-auto border border-light rounded'>
                     <img src='/img/caratulas/idi.jpg' alt='informes de intervencion' className='w-50 d-inline-block'/>
-                    <span className='ps-3 fs-5 fw-semibold'>Informes de intervencion</span> 
+                    <span className='ps-2 fw-semibold'>Informes de intervencion</span> 
                 </article>
         </Col>
         <Col sm={12} md={true} lg={4}>
             <article className='d-flex flex-row justify-content-center align-items-center w-auto border border-light rounded'>
                 <img src='/img/caratulas/cem.jpg' alt='contenido teorico multimedial' className='w-50 d-inline-block'/>
-                <span className='ps-3 fs-5 fw-semibold'>Contenido teorico multimedial</span>
+                <span className='ps-2 fw-semibold'>Contenido teorico multimedial</span>
              </article>
         </Col>
         </Stack>
@@ -43,14 +43,14 @@ const Publis = () => {
             <Col sm={12} md={true} lg={4}>
                 <article className='d-flex flex-row justify-content-center align-items-center w-auto border border-light rounded'>
                         <img src='/img/caratulas/prc.jpg' alt='producciones comunicacionales' className='w-50 d-inline-block'/>
-                        <span className='ps-3 fs-5 fw-semibold'>Producciones Comunicacionales</span>
+                        <span className='ps-2 fw-semibold'>Producciones Comunicacionales</span>
                         
                 </article>
             </Col>
             <Col sm={12} md={true} lg={4}>
                 <article className='d-flex flex-row align-items-center w-auto border border-light rounded'>
                 <img src='/img/caratulas/et.jpg' alt='ensayos teoricos' className='w-50'/>
-                <span className='ps-3 fs-5 fw-semibold'>Ensayos teoricos</span>
+                <span className='ps-2 fw-semibold'>Ensayos teoricos</span>
                 </article>
                 
             </Col>

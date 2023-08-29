@@ -5,7 +5,7 @@ const Publicaciones = () => {
 return(
     <>
     <section className="container main__content">
-    <h4 className="mt-5 mb-5 fw-semibold text-secondary text-uppercase">Todas las publicaciones</h4>
+    <h2 className="mt-5 mb-5 fw-bold text-secondary text-uppercase">Todas las publicaciones</h2>
     <ListContainer/>
     </section>
     
