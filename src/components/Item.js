@@ -4,7 +4,7 @@ import { Card } from 'react-bootstrap';
 
 const Item = ({document}) => {
 
-    const{titulo, url, image} = document;
+    const {titulo, url, image} = document;
 
     return(
     
