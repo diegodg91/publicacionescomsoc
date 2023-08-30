@@ -56,7 +56,7 @@ const Searcher = () => {
                   <Form.Control
                     type="search"
                     name="keywords"
-                    placeholder="Busca por titulo o tema"
+                    placeholder="Busca por título o tema"
                     className="me-2"
                     aria-label="Search"
                     value={search}
@@ -76,7 +76,7 @@ const Searcher = () => {
                                             <h5 className='card-title'>{doc.titulo}</h5>
                                              <p className="parrafo-doc pb-2">
                                             {doc.descripcion} <br></br>
-                                            <span className='pt-5 fw-bold'>Autor: {doc.autor}</span>
+                                            <span className='pt-5 fw-bold'>Autor/a: {doc.autor}</span>
                                         </p>
                                         
                                         <a target="blank" href={doc.url} className="decoration-none border-rounded rounded-2 fw-bold text-secondary">Ver PDF</a>

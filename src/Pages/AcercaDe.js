@@ -26,7 +26,7 @@ const AcercaDe = () => {
                 <h4 className="mt-5 fs-1 fw-bold text-secondary">Derechos de autor</h4>
                 <hr className="border border-secondary border-1"/>
                 <p>
-                La publicación de los trabajos finales de grado en el repositorio web preserva los derechos de autor y respeta el valor de propietarios de los trabajos a los graduados. Estos pueden pedir sin razón fundada la baja del material o del mismo en el sitio web.<br/>
+                La publicación de los trabajos finales de grado en el repositorio web preserva los derechos de autor y respeta el valor de propietarios de los trabajos a los graduados/as. Estos pueden pedir sin razón fundada la baja del material o del mismo en el sitio web.<br/>
                 El repositorio es de acceso y carácter gratuito, no tendrá fines lucrativos, no se venderá ni alquilará el contenido a otras instituciones privadas o gubernamentales. El contenido es de propiedad absoluta de los autores de los trabajos finales expuestos.
 
                 </p>
@@ -41,7 +41,7 @@ const AcercaDe = () => {
         <div className="row align-items-center mt-5 mb-5">
         
             <div className="col-sm-12 col-md-6">
-                <h4 className="mt-5 fs-1 fw-bold text-secondary">Contácto</h4>
+                <h4 className="mt-5 fs-1 fw-bold text-secondary">Contacto</h4>
                 <hr className="border border-secondary border-1"/>
                 <p>
                 Para enviar tu trabajo final de grado de la carrera de Comunicación Social de la UNNE contáctate con la casilla de correo:<br/>
@@ -52,7 +52,7 @@ const AcercaDe = () => {
                         - Datos personales (incluyendo forma de contacto)
                     </li>
                     <li>
-                        - Tematica
+                        - Temática
                     </li>
                     <li>
                         - Tipo de trabajo

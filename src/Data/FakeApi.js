@@ -12,7 +12,7 @@ const documentos = [
     {
         id:'2',
         categoria: 'produccion comunicacional',
-        autor: 'Martinez - Michel', 
+        autor: 'Gabriela Martinez - Lucrecia Analí Michel', 
         idCategoria: '05',
         titulo:'Manual del buen uso de redes sociales',
         descripcion:'Este manual servirá como una guía de usos y estilos para la administración de redes sociales del Gobierno del Chaco, apuntando a unificar la identidad discursiva bajo el objetivo de fortalecer un modelo de Gobierno Abierto.',
@@ -22,7 +22,8 @@ const documentos = [
 
         {
             id:'3',
-            categoria: 'informes de intervencion', 
+            categoria: 'informes de intervencion',
+            autor: 'Sonia Insaurralde',
             idCategoria: '04',
             titulo:'Comunicación estrategica - Invico',
             descripcion:'Este trabajo tiene como principal objetivo establecer un plan de comunicación que permita dejar de lado una visión reduccionista existente en el Instituto de Vivienda de Corrientes.',
@@ -33,7 +34,7 @@ const documentos = [
             {
                 id:'4',
                 categoria: 'informes de intervencion',
-                autor: 'Alegre - Magua', 
+                autor: 'Cecilia Alegre - Anyelén Magua Suarez', 
                 idCategoria: '04',
                 titulo:'Con la camiseta puesta',
                 descripcion:'Es un proyecto realizado en la radio escolar FM 87.9 “Héroes de Malvinas” de lalocalidad de Pedro R. Fernández, Corrientes; con la intención de resignificar el rol pedagógico-comunitario de la misma, y contribuir a dinamizar los procesos de aprendizaje y la creatividad de alumnos, alumnas y docentes.',
