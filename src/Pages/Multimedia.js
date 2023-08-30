@@ -8,7 +8,7 @@ return(
     <div className="row align-items-center g-4 mt-5 mb-5">
 
     <div className="col-12 d-flex flex-column">
-    <h1 className="mt-3 pb-3 fw-bold text-dark text-uppercase border-bottom border-2 border-dark">Espacio Multimedia</h1>
+    <h1 className="mt-3 pb-3 fw-bold text-secondary text-uppercase border-bottom border-2 border-secondary">Espacio Multimedia</h1>
     <img src="/img/student.jpg" alt="multimeda PSC" className="mt-4 img-main"/>
     
     </div>
