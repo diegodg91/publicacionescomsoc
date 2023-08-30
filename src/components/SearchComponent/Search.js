@@ -75,8 +75,10 @@ const Searcher = () => {
                                         <div className='card-body'>
                                             <h5 className='card-title'>{doc.titulo}</h5>
                                              <p className="parrafo-doc pb-2">
-                                            {doc.descripcion}
+                                            {doc.descripcion} <br></br>
+                                            <span className='pt-5 fw-bold'>Autor: {doc.autor}</span>
                                         </p>
+                                        
                                         <a target="blank" href={doc.url} className="decoration-none border-rounded rounded-2 fw-bold text-secondary">Ver PDF</a>
                                         </div>
                                        

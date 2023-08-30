@@ -21,9 +21,7 @@ const AcercaDe = () => {
 
 
         <div className="row align-items-center mt-5 mb-5">
-        <div className="col-sm-12 col-md-6">
-                <img src="/img/derechos.jpg" alt="bibliografia" className="img-main" />
-            </div>
+        
             <div className="col-sm-12 col-md-6">
                 <h4 className="mt-5 fs-1 fw-bold text-secondary">Derechos de autor</h4>
                 <hr className="border border-secondary border-1"/>
@@ -32,6 +30,10 @@ const AcercaDe = () => {
                 El repositorio es de acceso y carácter gratuito, no tendrá fines lucrativos, no se venderá ni alquilará el contenido a otras instituciones privadas o gubernamentales. El contenido es de propiedad absoluta de los autores de los trabajos finales expuestos.
 
                 </p>
+            </div>
+
+            <div className="col-sm-12 col-md-6">
+                <img src="/img/derechos.jpg" alt="bibliografia" className="img-main" />
             </div>
            
         </div>

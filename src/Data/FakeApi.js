@@ -1,7 +1,8 @@
 const documentos = [
     {
     id:'1',
-    categoria: 'investigaciones cientificas', 
+    categoria: 'investigaciones cientificas',
+    autor: 'Laura A. Orgoñ', 
     idCategoria: '03',
     titulo:'Intervencion comunicacional para promover la participación y el dialogo entre directivos y mandos medios',
     descripcion:'El propósito del presente trabajo es fortalecer la comunicación interna en el Instituto Superior San José para lograr una mayor participación de los docentes y el personal no docente en las propuestas institucionales y para mejorar la comunicación de éstos con los mandos superiores.',
@@ -10,7 +11,8 @@ const documentos = [
     },
     {
         id:'2',
-        categoria: 'produccion comunicacional', 
+        categoria: 'produccion comunicacional',
+        autor: 'Martinez - Michel', 
         idCategoria: '05',
         titulo:'Manual del buen uso de redes sociales',
         descripcion:'Este manual servirá como una guía de usos y estilos para la administración de redes sociales del Gobierno del Chaco, apuntando a unificar la identidad discursiva bajo el objetivo de fortalecer un modelo de Gobierno Abierto.',
@@ -30,7 +32,8 @@ const documentos = [
 
             {
                 id:'4',
-                categoria: 'informes de intervencion', 
+                categoria: 'informes de intervencion',
+                autor: 'Alegre - Magua', 
                 idCategoria: '04',
                 titulo:'Con la camiseta puesta',
                 descripcion:'Es un proyecto realizado en la radio escolar FM 87.9 “Héroes de Malvinas” de lalocalidad de Pedro R. Fernández, Corrientes; con la intención de resignificar el rol pedagógico-comunitario de la misma, y contribuir a dinamizar los procesos de aprendizaje y la creatividad de alumnos, alumnas y docentes.',
@@ -40,7 +43,8 @@ const documentos = [
 
                 {
                     id:'5',
-                    categoria: 'investigaciones cientificas', 
+                    categoria: 'investigaciones cientificas',
+                    autor: 'Antonella Pizzorno', 
                     idCategoria: '05',
                     titulo:'Construccion de identidad correntina',
                     descripcion:'En esta investigación, se tiene como objetivo encontrar marcas o huellas de identidad correntina en el discurso de Gustavo Valdés construido durante su campaña a gobernador en su cuenta de Facebook.',
@@ -49,7 +53,8 @@ const documentos = [
                     },
                     {
                         id:'6',
-                        categoria: 'produccion comunicacional', 
+                        categoria: 'produccion comunicacional',
+                        autor: 'Cynthia Mercedes Jara',  
                         idCategoria: '06',
                         titulo:'Soportes audiovisuales como herramientas para la comunicación institucional estrategica',
                         descripcion:'Esta presentación final de tesina plantea la producción de un pack de videos institucionales que serán utilizados por la Facultad de Ingeniería (UNNE) como herramienta para lo comunicación externa de la institución.',
@@ -58,7 +63,8 @@ const documentos = [
                         },
                         {
                             id:'7',
-                            categoria: 'produccion comunicacional', 
+                            categoria: 'produccion comunicacional',
+                            autor: 'Pablo Miguel Reyes Beyer', 
                             idCategoria: '07',
                             titulo:'Pagina web: "Memoria Correntina". Sobre "el correntinazo de 1999"',
                             descripcion:'Se trata de la creación del sitio memoriacorrentina.com, donde se generarán contenidos periodísticos referidos al Correntinazo de 1999.',
@@ -66,7 +72,8 @@ const documentos = [
                             },
                             {
                                 id:'8',
-                                categoria: 'produccion comunicacional', 
+                                categoria: 'produccion comunicacional',
+                                autor: 'Acosta - Almirón', 
                                 idCategoria: '08',
                                 titulo:'Voces diversas',
                                 descripcion:'Aborda la Marcha del Orgullo del colectivo LGBTTTIQ en Corrientes desde su construcción social, política y cultural, entendida como una práctica comunicativa vinculada al reclamo de los derechos humanos en pos de una sociedad democrática más inclusiva.',
@@ -75,7 +82,8 @@ const documentos = [
                                 },
                                 {
                                     id:'9',
-                                    categoria: 'investigaciones cientificas', 
+                                    categoria: 'investigaciones cientificas',
+                                    autor: 'Flavio Alegre', 
                                     idCategoria: '09',
                                     titulo:'Analisis y descripción del comportamiento participativo, de los seguidores de la serie de TV, "El Marginal"',
                                     descripcion:'Desarrolla un recorrido exploratorio y descriptivo sobre los procesos de comportamiento participativo de los fans de la serie de Tv El Marginal, en una comunidad privada de seguidores en Facebook.',
@@ -84,7 +92,8 @@ const documentos = [
                                     },
                                     {
                                         id:'10',
-                                        categoria: 'produccion comunicacional', 
+                                        categoria: 'produccion comunicacional',
+                                        autor: 'Moreira - Schwartz - Vesconi', 
                                         idCategoria: '10',
                                         titulo:'Serie documental sonora:"Pinceladas de memoria":Abordaje',
                                         descripcion:'Esta tesina presenta la serie documental sonora &quot;Pinceladas de Memoria&quot; compuesta por tres capítulos donde se presenta la historia del mural &quot;Argentina, dolor y Esperanza” de Amanda Mayor de Piérola.',

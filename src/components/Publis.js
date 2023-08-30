@@ -1,4 +1,4 @@
-import Container from 'react-bootstrap/Container';
+
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Stack from 'react-bootstrap/Stack';
@@ -7,13 +7,13 @@ import { Link } from 'react-router-dom';
 const Publis = () => {
 
     return(
-        <div className="mb-5">
+        <div className="mt-5 mb-5">
 
-    <Container>
+<hr></hr>
     <div className='pb-5'>
-    <h2 className='mt-5 mb-2 text-secondary fw-bold'>Categorias</h2>
+    <h2 className='mt-5 mb-2 text-uppercase text-secondary fw-bold'>Categorias</h2>
     <p className='lh-sm mb-5'>Estos son los diferentes temas que tratan los egresados/as</p>
-    <Link className='text-light border rounded-3 fw-semibold bg-primary p-3' to='/publicaciones'style={{textDecoration: "none"}}>Ver publicaciones <i class="bi bi-arrow-right"></i></Link>
+    <Link className='text-secondary border border-secondary rounded-3 p-3' to='/publicaciones'style={{textDecoration: "none"}}>Ver publicaciones <i class="bi bi-arrow-right"></i></Link>
     </div>
     
     <Row>
@@ -56,7 +56,7 @@ const Publis = () => {
             </Col>
         </Stack>
     </Row>
-    </Container>
+   
  
     
     </div>
