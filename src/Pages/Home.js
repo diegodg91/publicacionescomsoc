@@ -28,7 +28,7 @@ const Home = () => {
 
             <div className="col-sm-12 col-md-4">
             <h2 className="fw-bold text-uppercase text-secondary">espacio multimedia</h2>
-            <p className="fw-semibold fs-5 mb-5">Streaming, videos, audios y mas</p>
+            <p className="fw-semibold fs-5 mb-5">Streaming, videos, audios y mas..</p>
             <Link className="fs-5 text-dark p-3 border rounded-3 border-dark" to='/multimedia' style={{textDecoration: "none"}}>Conoce más  <i class="bi bi-arrow-right"></i></Link>
             
             </div>

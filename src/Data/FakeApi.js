@@ -74,7 +74,7 @@ const documentos = [
                             {
                                 id:'8',
                                 categoria: 'produccion comunicacional',
-                                autor: 'Acosta - Almirón', 
+                                autor: 'María Virgini aAcosta - Costanza Almirón', 
                                 idCategoria: '08',
                                 titulo:'Voces diversas',
                                 descripcion:'Aborda la Marcha del Orgullo del colectivo LGBTTTIQ en Corrientes desde su construcción social, política y cultural, entendida como una práctica comunicativa vinculada al reclamo de los derechos humanos en pos de una sociedad democrática más inclusiva.',
@@ -94,7 +94,7 @@ const documentos = [
                                     {
                                         id:'10',
                                         categoria: 'produccion comunicacional',
-                                        autor: 'Moreira - Schwartz - Vesconi', 
+                                        autor: 'Noelia Moreira - Ana Schwartz - Silvana Vesconi', 
                                         idCategoria: '10',
                                         titulo:'Serie documental sonora:"Pinceladas de memoria":Abordaje',
                                         descripcion:'Esta tesina presenta la serie documental sonora &quot;Pinceladas de Memoria&quot; compuesta por tres capítulos donde se presenta la historia del mural &quot;Argentina, dolor y Esperanza” de Amanda Mayor de Piérola.',
