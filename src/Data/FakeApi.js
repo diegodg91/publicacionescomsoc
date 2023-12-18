@@ -69,6 +69,7 @@ const documentos = [
                             idCategoria: '07',
                             titulo:'Pagina web: "Memoria Correntina". Sobre "el correntinazo de 1999"',
                             descripcion:'Se trata de la creación del sitio memoriacorrentina.com, donde se generarán contenidos periodísticos referidos al Correntinazo de 1999.',
+                            url: 'https://drive.google.com/file/d/1rISrPIqsj9VOzH04qzX8dNV30kcf8ANF/view?usp=sharing',
                             image: './img/caratulas/prc.jpg'
                             },
                             {
