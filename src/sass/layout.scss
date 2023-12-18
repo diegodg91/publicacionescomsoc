@@ -19,7 +19,18 @@
     }
 }
 
+@mixin responsive-text {
+    font-size: 16px; // Tamaño predeterminado
+  
+    @media screen and (max-width: 767px) {
+      font-size: 12px; // Cambiar el tamaño en dispositivos pequeños
+    }
+  }
+
 body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -65,9 +76,8 @@ ul li{
 .parrafo-doc{
     font-size: 12px;
 }
-/* .hero{
-    background-image: `url('/img/egresados.jpg')`;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-} */
+
+.text-info-footer{
+   color: #5D8BF4;
+    @include responsive-text;
+}

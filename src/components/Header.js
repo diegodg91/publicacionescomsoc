@@ -20,13 +20,13 @@ const Header = () => {
     return(
 
         <>
-        <header>
+      
             <Navbar collapseOnSelect expand="lg" bg="primary" variant="dark" className='sticky-top' expanded={expanded}>
                 <Container>
                     <Navbar.Brand>
                     <Link to="/">
                     <img
-                        src="/img/PCS-logo.svg"
+                        src="/img/logoPSC-v2.svg"
                         width="104"
                         height="auto"
                         className="d-inline-block align-top"
@@ -48,7 +48,7 @@ const Header = () => {
                 
                 </Container>
             </Navbar>
-        </header>
+    
         </>
     )
 }

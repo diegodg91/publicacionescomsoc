@@ -67,6 +67,7 @@ const Searcher = () => {
                 </Form> 
                        
                             <div className='row justify-space-between mt-5'>
+                            {result.length === 0 && <p className='text-danger'>No se encontraron resultados con el titulo o categoria ingresado</p>}
                                 {   
                                    
                                     result.map( (doc) => (

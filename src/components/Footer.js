@@ -2,15 +2,15 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
     return(
-      <div className="container-fluid bg-dark align">
+      <div className="bg-dark">
 
         <footer className="pt-5 pb-5 d-flex flex-column flex-md-row justify-content-center align-items-center">
         
-          <div className="row g-5 align-items-start justify-content-start">
+          <div className="row g-3 align-items-start justify-content-center">
 
-          <div className="col-sm-12 col-md-4 text-start">
-                <img src="/img/pcs-logo-azul.png" alt="psc" style={{width: "120px", height: "auto"}}/>
-                <p className='mt-2 text-uppercase text-secondary'>copyright 2022</p>
+          <div className="col-sm-12 col-md-4 col-lg-4">
+                <img src="/img/logoPSC-azul.svg" alt="psc" style={{width: "116px", height: "auto"}}/>
+                <p className='mt-2 text-uppercase text-secondary parrafo-doc'>copyright 2022</p>
                 </div>
 
               <div className="col-sm-12 col-md-4 text-light d-flex flex-column text-start">
@@ -20,13 +20,13 @@ const Footer = () => {
                     <Link className='text-decoration-none pb-2' to='/acercade'>Acerca de</Link>   
               </div>
 
-              <div className="col-sm-12 col-md-4 text-start">
+              <div className="col-sm-12 col-md-4 col-lg-4 text-start">
               
               <p className='text-primary'>Email: <br/>
-              <span className='text-secondary'>publicacionescomsoc1@gmail.com</span>
+              <span className='text-info-footer'>publicacionescomsoc1@gmail.com</span>
               </p>
               <p className='text-primary'>Telefono: <br/>
-              <span className='text-secondary'>+543794759141</span>
+              <span className='text-info-footer'>+543794759141</span>
               </p>
               
               </div>
